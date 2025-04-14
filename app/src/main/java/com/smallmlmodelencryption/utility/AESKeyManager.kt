@@ -45,7 +45,7 @@ object AESKeyManager {
             keyStore.setEntry(
                 KEY_ALIAS,
                 entry,
-                keyProtection // No password protection; Android Keystore handles security
+                keyProtection
             )
 
             Log.d("AESKeyManager", "✅ AES key downloaded and securely stored in Keystore.")
